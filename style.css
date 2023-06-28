@@ -1,0 +1,424 @@
+
+.avatar {
+    position: fixed;
+    width: 256px;
+    height: 256px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    animation: float 5s ease-in-out infinite;
+    transform: translatey(0px); 
+    margin-left: 35%;
+    animation: avatar-scale 1s;
+    
+}
+
+@keyframes avatar-scale {
+    0% {
+        transform: scale(0);
+    }
+
+    90% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-20px);
+    }
+    
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+}
+
+.youtubeurl {
+    width: 61px;
+    height: 61px;
+    animation: url-load 1.5s cubic-bezier(0.42, 0, 0.68, 1.91); 
+    
+}
+
+@keyframes url-load {
+    0% {
+        transform: translatex(-800%);
+
+    }
+
+    100% {
+        transform: translateY(0);
+
+    }
+}
+
+.site-footer {
+    position: fixed;
+  left: 0;
+  bottom: 30px;
+  width: 100%;
+  font-family: sans-serif;
+  color: #656666;
+  text-align: center;
+  animation: yonisite 1s ease-in;
+  
+  }
+
+  @keyframes yonisite {
+      0% {
+          transform: translateY(-6000%);
+      }
+
+      100% {
+          transform: translateY(0%);
+      }
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;;
+    padding: 18%;
+    position: relative;
+    
+  }
+
+ .aboutyoni {
+    position: fixed;
+    top: 20px;
+    height: 120px;
+    width: 120px;
+    margin-left: 0%;
+    animation: yonisite 1s;
+
+   
+ }
+
+ .logo-name {
+     position: fixed;
+     left: 40%;
+     size: 10ch;
+     top: 52px;
+     font-size: 50px;
+     color: black;
+     text-align: center;
+     animation: yonisite 1s;
+ }
+
+ .logo-name-home {
+    position: fixed;
+    left: 7%;
+    size: 10ch;
+    top: 52px;
+    font-size: 50px;
+    color: black;
+    animation: yonisite 1s;
+}
+
+ .game-info {
+    position: fixed;
+    size: 10ch;
+    top: 52px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    animation: yonisite 1s;
+ }
+  
+ .header {
+     margin: auto;
+ }
+
+ .social-info {
+    position: fixed;
+     left: 83%;
+     size: 10ch;
+     top: 64px;
+     font-size: 50px;
+     color: black;
+     text-align: center; 
+     animation: yonisite 1s;
+ }
+
+ .social-names {
+    color: black;
+    font-size: 56px;
+    position: fixed; 
+    top: 30%; 
+    margin-left: 40%;
+    animation: avatar-scale 1s;
+
+}
+
+.starts {
+    color: black;
+    font-size: 56px;
+    position: fixed; 
+    top: 30%; 
+    margin-left: 45%;
+    animation: avatar-scale 1s;
+
+}
+
+.starts2 {
+    color: black;
+    font-size: 56px;
+    position: fixed; 
+    top: 40%; 
+    margin-left: 44%;
+    animation: avatar-scale 1s;
+
+}
+
+.discord-tag {
+    color: black;
+    font-size: 50px;
+    position: fixed;
+    top: 37%;
+    margin-left: 37%;
+    animation: avatar-scale 1s;
+}
+
+.youtube-name {
+    color: black;
+    font-size: 50px;
+    position: fixed;
+    top: 44%;
+    margin-left: 40%;
+    animation: avatar-scale 1s;
+}
+
+.mc-name {
+    color: black;
+    font-size: 50px;
+    position: fixed;
+    top: 43%;
+    margin-left: 39%;
+    animation: avatar-scale 1s;
+}
+
+.avatar-gameinfo {
+    position: fixed;
+    width: 256px;
+    height: 256px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    animation: float 5s ease-in-out infinite;
+    transform: translatey(0px); 
+    margin-left: 43%;
+    animation: avatar-scale 1s;
+    top: 62%;
+}
+
+.valorant-name {
+    color: black;
+    font-size: 50px;
+    position: fixed;
+    top: 37%;
+    margin-left: 35%;
+    animation: avatar-scale 1s;
+}
+
+.link {
+    color: black;
+    font-size: 50px;
+    position: fixed;
+    top: 50%;
+    margin-left: 46%;
+    animation: avatar-scale 1s;
+    text-decoration: none;
+    a:visited {text-decoration: none;}
+    a:hover { text-decoration: underline; }
+    a:active { text-decoration: underline; }
+}
+
+.gamename {
+    position: fixed;
+     left: 20%;
+     size: 10ch;
+     top: 56px;
+     font-size: 50px;
+     color: black;
+     animation: yonisite 1s;
+}
+
+.games {
+    position: fixed;
+     left: 46%;
+     size: 10ch;
+     top: 56px;
+     font-size: 50px;
+     color: black;
+     animation: yonisite 1s;
+}
+
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+}
+
+.cal-position {
+    position: fixed;
+     left: 64%;
+     size: 10ch;
+     top: 64px;
+     font-size: 50px;
+     color: black;
+     animation: yonisite 1s;
+}
+
+:root {
+    --clr-neon: hsl(217 100% 54%);
+    --clr-bg: hsl(323 21% 16%);
+}
+
+.neon-button {
+    font-size: 3rem;
+    position: relative;
+    top: -200px;
+    left: 80%;
+    font-family: Arial;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) .125em solid;
+    padding: .25em 1.25em;
+    border-radius: 0.25em;
+    animation: avatar-scale 1s;
+
+
+    text-shadow: 0 0 0.125em
+     hsl(0 0% 100% / 0.5),0 0 0.25em var(--clr-neon) ;
+
+
+     box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 .5em 0 var(--clr-neon);
+
+}
+
+.neon-button::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    background:var(--clr-neon);
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1em);
+    opacity: 0.7;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+    color: var(--clr-bg);
+    text-shadow: none;
+}
+
+.neon-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em var(--clr-neon);
+    background: var(--clr-neon);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 100ms linear;
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+    opacity: 1;
+}
+
+
+.neon-button:hover::after,
+.neon-button:focus::after {
+    opacity: 1;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.calculator-grid {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.calculator-grid > button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.koren{
+    top: 50;
+    left: 50;
+    bottom: 100;
+}
+
+.gfsfgs{
+    top: 50;
+    left: 50;
+    bottom: 100;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px; 
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color: white;
+    font-size: 2.5rem;
+}
